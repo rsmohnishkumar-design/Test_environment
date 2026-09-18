@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#16a34a">
+<title>Testify — Learn. Test. Improve.</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%85%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=9">
+</head>
+<body>
+
+<div class="app-backdrop" id="appBackdrop" aria-hidden="true">
+  <div class="backdrop-inner">
+    <header class="topbar">
+      <div class="brand-mini">
+        <span class="brand-check">✓</span>
+        <strong>Testify</strong>
+      </div>
+      <span class="chip chip-teacher">🔒 Teacher Room</span>
+      <span class="btn ghost">Log out</span>
+    </header>
+
+    <div class="live-banner live">
+      <span>🟢</span>
+      <strong>Live now</strong>
+      <span>— questions are with your students</span>
+    </div>
+
+    <div class="card step-card step-1">
+      <div class="step-number">01</div>
+      <div>
+        <h2>📸 Upload pages</h2>
+        <p class="muted">Take photos or upload PDFs and notes to create questions from your lessons.</p>
+      </div>
+    </div>
+
+    <div class="card step-card step-2">
+      <div class="step-number">02</div>
+      <div>
+        <h2>📝 Questions</h2>
+        <p class="muted">Review, edit and send questions to your class.</p>
+      </div>
+    </div>
+
+    <div class="card step-card step-3">
+      <div class="step-number">03</div>
+      <div>
+        <h2>🧑‍🎓 Students &amp; scores</h2>
+        <p class="muted">See who's logged in and follow scores as they happen.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="view login-view" id="loginView">
+  <div class="login-card card">
+
+    <div class="login-icon-wrap">
+      <div class="login-icon">✓</div>
+    </div>
+
+    <div class="brand-area">
+      <h1>Testify</h1>
+      <div class="brand-line">
+        <span></span>
+        <span>Learn • Test • Improve</span>
+        <span></span>
+      </div>
+    </div>
+
+    <p class="login-intro">
+      Enter your name to join the test.
+      <br>
+      <span>Teachers can enter their room code.</span>
+    </p>
+
+    <form id="loginForm">
+      <label for="usernameInput">Your name</label>
+
+      <div class="input-wrap">
+        <span class="input-icon">👤</span>
+        <input
+          id="usernameInput"
+          type="text"
+          placeholder="Enter your name"
+          autocomplete="off"
+          maxlength="40"
+          required
+        >
+      </div>
+
+      <button type="submit" class="btn primary login-button">
+        Continue
+        <span>→</span>
+      </button>
+    </form>
+
+    <div class="login-note">
+      <span>🔐</span>
+      <span>Your name is used only to identify your test session.</span>
+    </div>
+  </div>
+
+  <div class="login-footer">
+    <span>Powered by</span>
+    <strong>Testify</strong>
+    <span>•</span>
+    <span>Interactive Learning</span>
+  </div>
+</section>
+
+</body>
+</html>
